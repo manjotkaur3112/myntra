@@ -1,0 +1,397 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+body{
+    font-family:  Assistant,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, .05);
+    background-color: #fff;
+    align-items: center;
+    padding-left: 2%;
+    padding-right: 0.5%;
+}
+
+.myntra-logo{
+    width: 5%;
+}
+
+.myntra-logo img{
+    width: 53px;
+    height: 53px;
+    margin-left: 4%;
+}
+
+.mobile-menu-bar{
+    display: none;
+}
+
+.nav-bar{
+    width: 40%;
+}
+
+.nav-bar .nav-design ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    text-decoration: none;
+}
+
+.nav-design ul li{
+    font-family: Assistant,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+
+.nav-design ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+sup{
+    color: red;
+    padding-left: 3px;
+}
+
+.search-bar {
+    outline: 0;
+    padding: 4px;
+    width: 400px;
+    display: flex;
+    border: #f5f5f6;
+    background-color: #f5f5f6;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.search-bar img{
+    width: 20px;
+    background: none;   
+    background-color: #f5f5f6;
+}
+
+.search-bar input{
+    width: 100%;
+    height: 20%;
+    border: none;
+    background-color: #f5f5f6;
+} 
+
+.account-details{
+    width: 20%;
+}
+
+.account-details ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.account-details ul li {
+    display: grid;
+    text-align: center;
+}
+
+.account-details ul li img{
+    width: 20px;
+    height: 20px;
+}
+.account-details ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: Assistant,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.footer{
+    display: flex;
+    background-color: #f6f5f686;
+    justify-content: space-around;
+}
+
+.column2-row .content {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.content img {
+    width: 48px;
+}
+
+.text-content {
+    padding-left: 10px;
+}
+
+h4.footer-heading {
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 0.4px;
+    font-weight: 700;
+    padding-bottom: 25px;
+}
+
+
+h4.footer-heading a{
+    text-decoration: none;
+    color: black;
+} 
+
+.online-shopping ul li{
+    list-style: none;
+}
+.column1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.online-shopping {
+    width: 210px;
+}
+
+.customer-policies {
+    width: 210px;
+}
+
+.mobile-app {
+    width: 240px;
+}
+
+.social-icon {
+    padding-top: 25px;
+}
+
+.social-icon-logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.social-icon-logo img {
+    width: 20px;
+}
+
+.return {
+    padding-top: 30px;
+}
+
+section.hero {
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+.slider img {
+    width: 100%;
+}
+
+.main-hero-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+}
+
+.column-img img {
+    width: 100%;
+}
+
+.container{
+    padding-left: 4%;
+    padding-right: 4%;
+    margin-top: 4%;
+}
+
+.collection-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card img{
+    width: 100%;
+}
+
+.pay-deal img {
+    width: 100%;
+}
+
+.shop-by-categories img {
+    width: 100%;
+}
+
+.category-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin-bottom: 8%;
+}
+
+.category-card > div:nth-last-child(3) {
+    grid-column: 2;
+}
+.category-card > div:nth-last-child(2) {
+    grid-column: 3;
+}
+.category-card > div:nth-last-child(1) {
+    grid-column: 4;
+}
+
+.card{
+    background: white;
+    padding: 10px;
+    transition: background-color 0.3s ease, transform 0.3s;
+    /* animation: bounce 1s infinite; */
+}
+
+.card:hover{
+    background-color: #f0f0f0;
+    transform: scale(1.05);
+}
+
+/* @keyframes bounce{
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-20px);
+    }
+} */
+
+
+
+
+.online-shopping ul li h4 a{
+    color: black;
+    font-weight: 650;
+    font-size: 11.5px;
+    text-transform: uppercase;
+}
+
+.online-shopping ul li a{
+    text-decoration: none;
+    color:#444448b5;
+    font-size: 15px;
+    text-transform: capitalize;  
+    letter-spacing: 0.3px;
+}
+
+.useful-links ul li{
+    list-style: none;
+}
+
+.useful-links ul li h4 a{
+    color: black;
+    font-weight: 650;
+    font-size: 11.5px;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+}
+
+.useful-links ul li a{
+    text-decoration: none;
+    color:#444448b5;
+    font-size: 15px;
+    text-transform: capitalize;   
+}
+
+.customer-policies ul li{
+    list-style: none;
+}
+
+.customer-policies ul li h4 a{
+    color: black;
+    font-weight: 650;
+    font-size: 11.5px;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+}
+
+.customer-policies ul li a{
+    text-decoration: none;
+    color:#444448b5;
+    font-size: 15px;
+    text-transform: capitalize;   
+}
+
+
+@media (max-width: 768px){
+    body{
+        width: 100%;
+    }
+    .nav-bar {
+    display: none;
+}
+.search-bar {
+    display: none;
+}
+.myntra-logo {
+    width: 50%;
+}
+.account-details {
+    width: 50%;
+}
+.mobile-menu-bar{
+    display: block;
+}
+.mobile-menu-bar img {
+    width: 36px;
+}
+.collection-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+.category-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-bottom: 8%;
+}
+
+.category-card > div:nth-last-child(3) {
+    grid-column: auto;
+}
+.category-card > div:nth-last-child(2) {
+    grid-column: auto;
+}
+.category-card > div:nth-last-child(1) {
+    grid-column: auto;
+}
+.footer {
+    display: grid;
+    width: 100%;
+    justify-content: center;
+}
+.online-shopping {
+    width: 100%;
+}
+.customer-policies {
+    width: 100%;
+    margin-top: 30px;
+}
+.mobile-app {
+    width: 100%;
+    margin-top: 20px;
+}
+.useful-links {
+    margin-top: 20px;
+}
+.column1 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto;
+    padding-left: 0;
+    padding-right: 0;
+}
+.column2 {
+    margin-top: 30px;
+}
+}
